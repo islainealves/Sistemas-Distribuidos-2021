@@ -1,0 +1,16 @@
+CREATE DATABASE "ListaSD";
+
+CREATE TABLE Exercicio8(
+	nome varchar(50),
+	saldo float
+);
+
+INSERT INTO public.exercicio8(
+	nome, saldo)
+	VALUES ('islaine', 1200), 
+	('joao', 2000),
+	('stela', 1478),
+	('ronaldo', 785),
+	('luiz', 2410),
+	('sergio', 3580),
+	('lucas', 1420);
